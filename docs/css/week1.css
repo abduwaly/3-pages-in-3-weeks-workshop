@@ -1,0 +1,65 @@
+html, body, p{
+    margin: 0;
+    padding: 0;
+    font-size: 10px;
+    font-family: Times, "Times New Roman", sans-serif;
+}
+a{
+    text-decoration: none;
+}
+.header{
+    padding: 0 10em;
+    font-size: 1.2em;
+    height: 5.5em;
+    line-height: 5.5em;
+    background: #fff;
+}
+.header a{
+    color: gray;
+}
+.banner{
+    display: inline-block;
+    font-size: 2em;
+}
+.nav-links{
+    float: right;
+}
+.nav-links a{
+    margin: 0 1em;
+    color: darkgray;
+}
+.nav-links a:hover{
+    color: gray;
+}
+.top-row{
+    height: 70em;
+    color: #fff;
+    text-align: center;
+    background-image: url("../assets/hero.jpg");
+    background-size: cover;
+}
+.top-row .middle{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.top-row .title{
+    font-size: 5em;
+}
+.top-row .content{
+    margin: 2em 0;
+}
+.top-row .btn{
+    font-size: 1em;
+    height: 4em;
+    width: 15em;
+}
+.download{
+    color: #fff;
+    background-color: transparent;
+}
+.readmore{
+    color: #fff;
+    background-color: #8A2BE2;
+}
