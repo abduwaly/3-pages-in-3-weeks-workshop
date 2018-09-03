@@ -48,6 +48,7 @@ a{
     color: gray;
 }
 .row{
+    position: relative;
     height: 55em;
 }
 .top-row{
