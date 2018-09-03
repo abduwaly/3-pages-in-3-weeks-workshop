@@ -2,10 +2,29 @@ html, body, p{
     margin: 0;
     padding: 0;
     font-size: 10px;
-    font-family: Times, "Times New Roman", sans-serif;
+    font-family: sans-serif;
 }
 a{
     text-decoration: none;
+}
+.right{
+    float: right;
+}
+.left{
+    float: left;
+}
+.middle{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.btn{
+    margin-top: 1em;
+    font-size: 1em;
+    height: 4em;
+    width: 15em;
+    border: solid #ffffff .5px;
 }
 .header{
     padding: 0 10em;
@@ -21,9 +40,6 @@ a{
     display: inline-block;
     font-size: 2em;
 }
-.nav-links{
-    float: right;
-}
 .nav-links a{
     margin: 0 1em;
     color: darkgray;
@@ -31,35 +47,86 @@ a{
 .nav-links a:hover{
     color: gray;
 }
+.row{
+    height: 55em;
+}
 .top-row{
-    height: 70em;
     color: #fff;
     text-align: center;
     background-image: url("../assets/hero.jpg");
     background-size: cover;
 }
-.top-row .middle{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
-.top-row .title{
-    font-size: 5em;
-}
 .top-row .content{
     margin: 2em 0;
 }
-.top-row .btn{
-    font-size: 1em;
-    height: 4em;
-    width: 15em;
+.top-row .title{
+    font-size: 5.5em;
 }
-.download{
+.second-row{
+    background-color: #fff;
+}
+.third-row{
+    background-color: #f0f0f0;
+}
+.side-img{
+    position: relative;
+    height: 100%;
+    width: 60%;
+}
+.side-img img{
+    width: 80%;
+}
+.side-description{
+    position: relative;
+    width: 40%;
+    height: 100%;
+}
+.side-description p{
+    font-size: 1.5em;
+}
+.btn-download{
     color: #fff;
     background-color: transparent;
 }
-.readmore{
+.btn-readmore, .btn-see{
     color: #fff;
     background-color: #8A2BE2;
+}
+.footer{
+    background-color: #000000;
+    height: 120px;
+}
+.copyright{
+    position: relative;
+    height: 100%;
+    width: 60%;
+    color: #ffffff;
+    font-size: 1.2em;
+}
+.copyright b{
+    color: darkgray;
+}
+.social-contacts{
+    position: relative;
+    height: 100%;
+    width: 40%;
+    font-size: 1.2em;
+}
+.icon{
+    display: inline-block;
+    height: 16px;
+    width: 16px;
+    margin-left: 1em;
+}
+.facebook{
+    background-image: url("../assets/facebook.png");
+}
+.twitter{
+    background-image: url("../assets/twitter.png");
+}
+.youtube{
+    background-image: url("../assets/youtube.png");
+}
+.ins{
+    background-image: url("../assets/ins.png");
 }
